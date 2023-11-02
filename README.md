@@ -1,0 +1,2 @@
+# WS
+Wykład specjalizujący
