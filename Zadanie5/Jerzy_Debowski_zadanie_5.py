@@ -126,8 +126,8 @@ def find_people_on_video():
     cap.release()
 
 
-# find_face('osoba.jpg')
-# find_smiles('osoby.jpg')
-# capture_face_from_video()
+find_face('osoba.jpg')
+find_smiles('osoby.jpg')
+capture_face_from_video()
 find_people_on_video()
 cv2.waitKey(0)

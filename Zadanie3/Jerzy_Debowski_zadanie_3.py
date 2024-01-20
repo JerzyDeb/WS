@@ -26,7 +26,7 @@ def test_knn(data, target, k_values, distances):
     return results
 
 
-k_values = [3, 5, 7]
+k_values = [1, 2, 3]
 distances = ['euclidean', 'manhattan', 'chebyshev']
 
 iris_results = test_knn(iris.data, iris.target, k_values, distances)
